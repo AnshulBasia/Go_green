@@ -1,0 +1,48 @@
+
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+  
+}
+.whiteFont{
+  color: #FFFFFF;
+}
+.topnav li {float: right;}
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 66px 10px;
+    text-decoration: none;
+}
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a.active {background-color: #4CAF50;}
+ul.topnav li.left {float: left !important;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+.large{
+  font-size: 32px;
+}
+.small{
+  font-size: 10px;
+}
+.medium{
+font-size: 30px;}
+.xlarge{
+  font-size:50px;
+}
+body{
+  background-color:#000000;
+}
+.xxlarge{
+  font-size:125px;
+}
+.font{
+  font-size:18px;
+}
